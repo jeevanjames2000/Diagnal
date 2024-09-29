@@ -1,0 +1,23 @@
+
+body {
+    overflow-x: hidden;
+  font-family: 'Titillium Web';
+   
+    overflow-y: scroll;
+    background-color: #171717;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.title {
+    font-family: 'Titillium Web';
+}
+
+body::-webkit-scrollbar {
+    display: none;
+   
+}
+
+
+html {
+    scroll-behavior: smooth;
+}

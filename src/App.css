@@ -1,5 +1,32 @@
 .App {
+  font-family: 'Titillium Web';
   text-align: center;
+}
+body {
+  background-color: #171717;
+  font-family: 'Titillium Web';
+  overflow-x: hidden;
+  /* Ensure vertical scrolling is enabled */
+  scrollbar-width: 0px;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE 10+ */
+  color: #ffff;
+}
+
+* {
+  font-family: 'Titillium Web';
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Edge */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .App-logo {
@@ -14,7 +41,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #171717;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +49,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.title {
+  font-family: 'Titillium Web';
 }
 
 .App-link {
